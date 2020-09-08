@@ -1,0 +1,82 @@
+/* html document reference */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../ico/background_image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*header reference  */
+header {
+    width: 100%;
+    height: 60px;
+/*    background-color: rgba(0,0,0,0.15) ;*/
+    	border-radius: 50px;
+/*    color: white;*/
+}
+/*reference of logo in header */
+.testLogo {
+    float: left;
+    width: 10%;
+/*    width: calc((100%)/6);*/
+    text-align: center;
+}
+
+/*header content reference */
+.navbar{
+    display: block;
+    width: 80%;
+/*    width: calc((100%)/1.5);*/
+    float: left;
+}
+/*followig are the header list content reference */
+ul#navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+ul#navbar li {
+    float: left;
+    width: 20%;
+/*    width: calc((100%-20px)/4);*/
+    height: 100%;
+    background-color: rgba(0,0,0,1) ;
+    	border-radius: 1px;
+    line-height: 60px;
+    text-align: center;
+/*    transition: background-color 0.1s;*/
+}
+ul#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul#navbar li:hover {
+    background-color: #6D7272;
+}
+/*about-us on hover content in header*/
+ul#navbar li ul {
+    margin: 0;
+    padding: 0;
+}
+ul#navbar li ul li {
+    width: 100%;
+    display: none;
+    z-index: 100;
+    position: relative;
+}
+ul#navbar li:hover ul li {
+    display: block;
+}

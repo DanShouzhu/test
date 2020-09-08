@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    padding-top: 15px; /* Content to the boundary*/
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border: 1px solid 000000;
+    position: fixed;
+    text-align: center;
+    border-radius: 20px;
+    top: 210px; /*Set top value to HeightOfTopFrameDiv*/
+    bottom: 30px; /*Set bottom value to HeightOfBottomFrameDiv*/
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.2);
+}
+.software_content {
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    padding-top: 15px; /* Content to the boundary*/
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border: 1px solid 000000;
+    position: fixed;
+    text-align: center;
+    border-radius: 20px;
+    top: 210px; /*Set top value to HeightOfTopFrameDiv*/
+    bottom: 30px; /*Set bottom value to HeightOfBottomFrameDiv*/
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.2);
+}
+.tab {
+    margin: auto;
+    border-width: medium;
+    width: auto;
+    border-collapse: collapse;
+    /*        width="100%";*/
+    /*    style="border-collapse:collapse;" border="1px solid #DDD"*/
+}
+.tab th {
+    text-align: right;
+}
+td {
+    border: 1px solid #666;
+    width: 200px;
+    height: 50px;
+}
+td a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+#category td{
+    margin: auto;
+	border: none;
+	text-align: center;
+    border-width: medium;
+    width: auto;
+	height: auto;
+    border-collapse: collapse;
+}
+#category a {
+    text-decoration: none;
+	color:slateblue;
+}
